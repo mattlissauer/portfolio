@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-  $( document ).tooltip();
-
   $("#title-main").fadeIn(1000);
   $("#title-sub").fadeIn(2000);
 
@@ -15,7 +13,7 @@ $(document).ready(function() {
       console.log(clicks + " click");
     }
     
-    window.open('http://www.google.com');
+    window.open('https://www.dropbox.com/s/5y4i9mwqiesiyte/Matthew_Lissauer.pdf?dl=0');
 
   });
 
