@@ -1,7 +1,11 @@
 $(document).ready(function() {
 
+  // header and sub-header fade effects
+
   $("#title-main").fadeIn(1000);
   $("#title-sub").fadeIn(2000);
+
+  // rez download button click counter
 
   var clicks = 0;
 
@@ -12,6 +16,8 @@ $(document).ready(function() {
     } else {
       console.log(clicks + " click");
     }
+
+    // rez download button link trigger
     
     window.open('https://www.dropbox.com/s/5y4i9mwqiesiyte/Matthew_Lissauer.pdf?dl=0');
 
