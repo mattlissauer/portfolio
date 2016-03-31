@@ -186,6 +186,35 @@ nav > ul > li {
 	padding-right: 20px;
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 200px;
+	background-color: black;
+	color: rgba(244,244,244,1);
+	text-align: center;
+	border-radius: 3px;
+	padding: 5px;
+	font-family: "Lato", "Optima", "Arial", sans-serif;
+	font-size: .4em;
+	position: absolute;
+	z-index: 2;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip .tooltiptext {
+	top: 100%;
+	left: 50%;
+	margin-left: -100px;
+}
+
 #projects {
 	width: 85%;
 	height: 500px;
